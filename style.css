@@ -1,0 +1,133 @@
+/* html css here */
+html{
+    font-size: 10px;
+}
+/* body  css here */
+body {
+    background-color: #22223b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "open sans" , sans-serif;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(67,5,66,1) 19%, rgba(121,9,92,1) 35%, rgba(93,56,130,1) 50%, rgba(65,103,167,1) 65%, rgba(0,212,255,1) 100%);
+    animation: upanddown 5s ease-in-out infinite;
+
+}
+
+/* body animation here */
+@keyframes upanddown{
+    0% , 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(3%);
+    }
+}
+
+/* container  css here  */
+
+.container {
+margin-top: 4rem;
+    width: 80rem;
+    height: 47rem;
+    background-color: white;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 3rem;
+}
+
+/* game css here */
+
+.game{
+    /* display: none; */
+}
+
+/* content css here */
+.content{
+    padding: 5rem;
+}
+
+/* question css here */
+
+.question{
+    font-size: 4rem;
+}
+
+/* answer css here */
+
+.answer{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+/* submit css here */
+
+.submit{
+    background-color: aqua;
+    color: rgb(7, 7, 7);
+    font-weight: 800;
+    border: none;
+    width: 100%;
+    font-size: xx-large;
+    height: 6rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    bottom: 0;
+    margin-top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    animation:  rotate 1s ease-in-out infinite;
+}
+
+/* submit animation here */
+@keyframes rotate{
+    0% , 100%{
+        transform: translateY(0);
+        background-color: aqua;
+
+    }
+    50%{
+        transform: translateY(3%);
+        background-color: rgb(173, 22, 166);
+
+    }
+}
+
+/* result  css here */
+
+.result {
+    display: none;
+    padding: 5rem;
+    text-align: center;
+}
+
+/* result h1 css here */
+
+.result h1{
+    font-size: 5rem;
+}
+
+/* correct css here */
+
+.correct{
+    color: green;
+}
+
+/* .wrong css here */
+
+.wrong{
+    color: red;
+}
+
+/* play css here */
+
+.play{
+    color: white;
+    background-color: rebeccapurple;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
